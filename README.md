@@ -59,7 +59,9 @@ Project Structure
 
 mendmind/
 ├── app.py                          # Main entry point for Streamlit app
+
 ├── README.md                       # Project overview and instructions
+
 ├── requirements.txt                # Python dependencies
 ├── .env.example                    # Example environment variables file
 ├── Dockerfile                      # Dockerfile for containerizing the app
