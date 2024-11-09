@@ -57,50 +57,8 @@ Architecture
 
 Project Structure
 
-mendmind/
-├── app.py                          # Main entry point for Streamlit app
+<img width="887" alt="image" src="https://github.com/user-attachments/assets/d236c4d5-3565-462b-9342-57c07e097152">
 
-├── README.md                       # Project overview and instructions
-
-├── requirements.txt                # Python dependencies
-├── .env.example                    # Example environment variables file
-├── Dockerfile                      # Dockerfile for containerizing the app
-├── docker-compose.yml              # Docker-Compose setup for multi-container development
-├── LICENSE                         # License information
-├── CONTRIBUTING.md                 # Contribution guidelines
-├── config/                         # Configurations for different services
-│   ├── auth0_config.py             # Auth0 configuration details
-│   └── mongodb_config.py           # MongoDB Atlas connection setup
-├── src/                            # Core application code
-│   ├── frontend/                   # Frontend components
-│   │   ├── layout.py               # UI layout elements (headers, footers, etc.)
-│   │   ├── forms.py                # Mood logging form and other forms
-│   │   ├── resources.py            # Mental health resources display
-│   │   └── messages.py             # Display of supportive messages
-│   ├── backend/                    # Backend functionality
-│   │   ├── database/               # Database-related files
-│   │   │   ├── db_connection.py    # MongoDB connection setup
-│   │   │   ├── models/             # Database schema definitions
-│   │   │   │   ├── mood_log.py     # Mood log schema and data model
-│   │   │   │   └── user.py         # User schema and data model
-│   │   ├── ai_integration.py       # Gemini AI API integration
-│   │   ├── data_processing.py      # Data aggregation, validation, and processing functions
-│   │   └── utils.py                # Helper functions (e.g., for date formatting, data sanitization)
-│   ├── auth/                       # Authentication and authorization
-│   │   ├── auth.py                 # Auth0 authentication and token handling
-│   │   └── user_management.py      # User session management
-│   └── analytics/                  # Analytics module (optional)
-│       ├── mood_trends.py          # Aggregates and analyzes mood trend data
-│       └── insights.py             # Insights and recommendations based on mood logs
-├── tests/                          # Unit and integration tests
-│   ├── test_frontend.py            # Tests for frontend components
-│   ├── test_backend.py             # Tests for backend CRUD and API interactions
-│   ├── test_auth.py                # Tests for authentication and user management
-│   └── test_ai_integration.py      # Tests for Gemini AI integration
-└── docs/                           # Documentation for the project
-    ├── architecture.md             # Architectural overview and data flow
-    ├── API_docs.md                 # API documentation for backend endpoints
-    └── setup_guide.md              # Detailed setup guide for developers
 
 
 
